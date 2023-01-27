@@ -7,6 +7,8 @@ import components, graphs
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
 
+server = app.server
+
 layout = html.Div(
     [
         components.navbar,
