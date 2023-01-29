@@ -3,7 +3,7 @@ import dash_mantine_components as dmc
 import dash_bootstrap_components as dbc
 
 import dash
-import components, graphs
+from . import components, graphs
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
 
