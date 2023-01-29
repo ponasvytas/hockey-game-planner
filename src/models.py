@@ -1,9 +1,8 @@
 import random
-from dataclasses import dataclass, field
 from collections import deque
-from enum import StrEnum
 from copy import deepcopy
-
+from dataclasses import dataclass, field
+from enum import StrEnum
 
 import pandas as pd
 import plotly.express as px

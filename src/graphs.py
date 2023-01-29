@@ -1,5 +1,5 @@
 from dash import dcc
-from models import Game, Player, Strategy
+from .models import Game, Player, Strategy
 
 
 def create_dummy_game():
